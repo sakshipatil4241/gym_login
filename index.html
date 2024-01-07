@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gravity Fitness</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url('img/gym.jpg');
+        }
+        
+        .nav{
+            color: aliceblue;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 3px 16px;
+           
+            
+        }
+        .logo img{
+            width: 8%;
+            float: left;
+            padding: 0px 10px 0px 10px;
+        }
+    
+        .nav li {
+            list-style: none;
+            float: left;
+            font-size: 30px;
+            padding: 15px 0px;
+            margin: 13px 21px;
+            
+        }
+        .nav li a{
+            text-decoration: none;
+            color: aliceblue;
+        }
+        .nav li a:hover{
+            color: blueviolet;
+        }
+        .heading{
+            padding: 40px;
+            justify-content: center;
+           
+        }
+        .heading h2{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+            color: white;
+            border: 5px solid rebeccapurple;
+            width: 45%;
+            height: 50%;
+            text-align: center;
+            border-radius: 40px;
+            background-color: blueviolet;
+            
+
+        }
+        .button{
+            position: absolute;
+            display: inline-block;
+            right: 34px;
+            top: 30px;
+        }
+        .btn{
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+            border: 2px solid blueviolet;
+            border-radius: 22px;
+            background-color: blueviolet;
+            margin: 0px -20px 1px 51px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: black;
+        }
+        .main{
+            width:100%
+        }
+        .main h2{
+            color: rgb(222, 101, 238);
+            font-family: cursive;
+            font-size: 34px;
+            margin: 0px 39px;
+        }
+        .fill{
+            border:2px solid  rgb(222, 101, 238);
+            width: 30%;
+            height: 200px;
+            margin: 48px 218px;
+        }
+        .fill h5{
+            color: aliceblue;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            margin: 13px 43px;
+            text-align: center;
+        }
+        .input{
+            color:aliceblue;
+            margin: auto;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 20px;
+        }
+        .input input{
+            background-color: transparent;
+        }
+        .btn1{
+            color:aliceblue;
+            background-color: blueviolet;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            justify-content: center;
+            margin: 20px 10px 10px 187px;
+            border-radius: 43px;
+        }
+        .btn1:hover{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            
+            <ul>
+                <div class="logo">
+                    <img src="img/logo2.png" alt="">
+                </div>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul><br><br>
+            <div class="heading">
+                <h2>Gravity Fitness</h2>
+            </div>
+            <div class="button">
+                <button class="btn">Call Us Now</button>
+                <button class="btn">Email Us</button>
+            </div>
+
+        </nav>
+    </header>
+    <section class="main">
+        <h2>“Unleash Your Fitness Potential, Unleash Your Best Self”</h2>
+        <div class="fill">
+            <h5>To join, Fill the following Details</h5>
+            <form action="">
+                <table class="input">
+                    <tr>
+                        <td><label for="input"></label>Enter your Name</td>
+                        <td><input type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="input"></label>Mobile Number</td>
+                        <td><input type="number"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="input"></label>Email Address</td>
+                        <td><input type="email"></td>
+                    </tr>
+                    <!-- <tr>
+                        <td><input type="submit" class="btn1" value="Submit"></td>
+                    </tr> -->
+                </table>
+                <input type="submit" class="btn1" value="Submit">
+            </form>
+        </div>
+
+    </section>
+    
+</body>
+</html>
